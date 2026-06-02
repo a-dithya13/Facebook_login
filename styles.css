@@ -1,0 +1,149 @@
+*
+{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box; /* why did we do this  */
+     font-family: 'Inter',sans-serif;
+}
+body
+{   
+    height: 100vh;
+    color: #f2f4f7;
+    
+}
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+.hero-image
+{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform:translateY(-60%);
+    width: 600px;
+   
+}
+.hero-image img{
+    width: 100%;
+    
+}
+.logo
+{
+    margin-bottom: 250px;
+    
+    width: 80px;
+}
+.left
+{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    position: relative;
+    border-right: solid;
+}
+.headline
+{
+    color: black;
+    font-size: 65px;
+    max-width: 420px;
+    font-weight: 600;
+    line-height: 1.05;
+    margin-top: 100;
+}
+.headline span {
+    color: #0877f2;
+}
+h3
+{
+    font-size: 45;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+}
+form
+{
+    margin-top: 110px;
+    padding: 40px;
+    font-weight: 500;
+    color: black;
+    margin-left: 5px;
+    max-width: 90%;
+}
+input
+{
+    width: 500px;
+    height: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: #bfcfe7;
+    border:0.05 solid;
+    font-weight: 580;
+    cursor: pointer;
+    
+}
+input:hover
+{
+    border-color: black;
+    border:0.05 solid;
+}
+.login   
+{
+   
+    height: 40px;
+    width: 500px;
+    background-color: #0877f2;
+    border-color: #0877f2;
+    border-bottom: #0877f2;
+    border:1px solid;
+    border-radius: 20px;
+    font-size: 19px;
+    color: #f2f4f7;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: #0378ff;
+}
+.frgt
+{
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 19px;
+    border:1px solid;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-bottom: #ffffff;
+    cursor: pointer;
+}
+.frgt:hover{
+    background-color: #f2f4f7;
+}
+.Create
+{
+   height: 40px;
+    width: 500px;
+    background-color: #ffffff;
+    border-color: #0877f2;
+    border-bottom: #0877f2;
+    border:1px solid;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0877f2;
+    cursor: pointer;
+}
+.Create:hover{
+    background-color: #e8e6e6;
+}
+.meta
+{
+    margin-top:30px;
+    margin-left: 185px;
+}
+.right{
+    transform: translateX(120%);
+}
